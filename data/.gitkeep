@@ -1,0 +1,3 @@
+# data/.gitkeep
+# This file keeps the data directory in the repository.
+# User-specific data files stored here should be added to .gitignore.

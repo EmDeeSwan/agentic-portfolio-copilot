@@ -1,0 +1,92 @@
+{
+  "TestUser": {
+    "name": "TestUser",
+    "risk_tolerance": "High",
+    "time_horizon": "10y",
+    "investment_goals": "Growth",
+    "current_holdings": {
+      "cash": 100
+    }
+  },
+  "Tim": {
+    "name": "Tim",
+    "risk_tolerance": "Aggressive",
+    "time_horizon": "30 Years",
+    "investment_goals": "Retirement",
+    "current_holdings": {
+      "Netflix (NFLX)": "$5,000",
+      "Amazon (AMZN)": "$5,000",
+      "NVIDIA (NVDA)": "$5,000",
+      "Broad-Based Commodities ETF": "$2,500",
+      "Shopify (SHOP)": "$5,000",
+      "Tesla (TSLA)": "$5,000",
+      "Emerging Markets ETF": "$15,000",
+      "Real Estate Investment Trust (REIT) ETF": "$2,500",
+      "Broad U.S. Equity ETF": "$40,000",
+      "International Developed Markets ETF": "$15,000"
+    }
+  },
+  "Bill": {
+    "name": "Bill",
+    "risk_tolerance": "low risk",
+    "time_horizon": "short-term",
+    "investment_goals": "buying a house",
+    "current_holdings": [
+      {
+        "shares": 150,
+        "ticker": "VTI",
+        "cost_basis": 225
+      },
+      {
+        "shares": 50,
+        "ticker": "VXUS",
+        "cost_basis": 58.5
+      },
+      {
+        "shares": 20,
+        "ticker": "BND",
+        "cost_basis": 72.1
+      },
+      {
+        "cost_basis": 185,
+        "shares": 10,
+        "ticker": "AAPL"
+      },
+      {
+        "shares": 5,
+        "ticker": "MSFT"
+      },
+      {
+        "ticker": "GOOGL",
+        "cost_basis": 140,
+        "shares": 100
+      },
+      {
+        "shares": 25,
+        "ticker": "AMZN",
+        "cost_basis": 145.2
+      },
+      {
+        "shares": 15,
+        "ticker": "NVDA"
+      },
+      {
+        "cost_basis": 155,
+        "shares": 30,
+        "ticker": "JPM"
+      },
+      {
+        "ticker": "TSLA",
+        "shares": 10,
+        "cost_basis": 240.5
+      }
+    ]
+  },
+  "Bob": {
+    "name": "Bob",
+    "risk_tolerance": "Low",
+    "time_horizon": "2-4 years",
+    "investment_goals": "Capital preservation",
+    "current_holdings": null
+  }
+}

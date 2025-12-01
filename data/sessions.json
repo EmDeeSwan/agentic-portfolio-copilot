@@ -1,0 +1,26 @@
+{
+  "test": {
+    "user": {
+      "test_sess": {
+        "id": "test_sess",
+        "app_name": "test",
+        "user_id": "user",
+        "state": {},
+        "events": [],
+        "last_update_time": 1764599862.4517324
+      }
+    }
+  },
+  "PortfolioAdvisor": {
+    "user": {
+      "debug_session": {
+        "id": "debug_session",
+        "app_name": "PortfolioAdvisor",
+        "user_id": "user",
+        "state": {},
+        "events": [],
+        "last_update_time": 1764607032.7062035
+      }
+    }
+  }
+}
