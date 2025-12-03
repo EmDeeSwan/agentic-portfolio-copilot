@@ -88,5 +88,25 @@
     "time_horizon": "2-4 years",
     "investment_goals": "Capital preservation",
     "current_holdings": null
+  },
+  "Donatello": {
+    "name": "Donatello",
+    "risk_tolerance": "Conservative",
+    "time_horizon": "Short Term (3-5 years)",
+    "investment_goals": "Buy a new home",
+    "current_holdings": [
+      {
+        "shares": 126,
+        "ticker": "BND"
+      },
+      {
+        "ticker": "VTI",
+        "shares": 18
+      },
+      {
+        "shares": 53,
+        "ticker": "SGOV"
+      }
+    ]
   }
 }

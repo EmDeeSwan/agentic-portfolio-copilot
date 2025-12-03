@@ -22,5 +22,25 @@
         "last_update_time": 1764607032.7062035
       }
     }
+  },
+  "src": {
+    "user": {
+      "test_hang_session": {
+        "id": "test_hang_session",
+        "app_name": "src",
+        "user_id": "user",
+        "state": {},
+        "events": [],
+        "last_update_time": 1764620460.2956915
+      },
+      "test_hang_session_new": {
+        "id": "test_hang_session_new",
+        "app_name": "src",
+        "user_id": "user",
+        "state": {},
+        "events": [],
+        "last_update_time": 1764621714.3377843
+      }
+    }
   }
 }

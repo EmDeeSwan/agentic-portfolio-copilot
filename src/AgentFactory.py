@@ -32,6 +32,7 @@ def create_refinement_loop(suffix: str) -> LoopAgent:
         Your role is to analyze the risk strategy proposed to the user's stated risk tolerance by the PortfolioStrategyAgent and either approve it or reject it.
 
         ## Instructions:
+        0. If you have already approved the strategy, the user hasn't provided any new feedback, and the exit_loop function has already been called, then do nothing except have the ClientAdvisor take over the conversation.
         1. Analyze the risk strategy proposed to the user's stated risk tolerance by the PortfolioStrategyAgent.
         2. If you approve it, you *MUST* return the 'approved' status.
         3. If you reject it, you *MUST* return the 'rejected' status with a reason.
@@ -112,8 +113,7 @@ def create_refinement_loop(suffix: str) -> LoopAgent:
                 **OUTPUT:** A brief message stating you have updated the strategy and submitted it for review (e.g., "I have updated the strategy based on feedback.").
             
             - IF there is NO critique (empty) and NO user feedback:
-                **ACTION:** Do NOT output the strategy.
-                **OUTPUT:** simply state "Sending strategy for risk review."
+                **ACTION:** Do NOT output the strategy OR communicate to the user that you are waiting for feedback. Send the signal to the critic to review the strategy.
         """
     )
 

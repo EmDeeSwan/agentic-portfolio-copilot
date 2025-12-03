@@ -61,6 +61,11 @@ def save_client_profile(tool_context: ToolContext, client_profile: ClientProfile
     if isinstance(client_profile, dict):
         client_profile = ClientProfile(**client_profile)
 
+    # Resolve name: use provided name or fallback to session state
+    profile_name = client_profile.name
+    if not profile_name:
+        profile_name = tool_context.state.get("user_name")
+
     # Update session state
     if client_profile.name:
         tool_context.state["user_name"] = client_profile.name
@@ -76,7 +81,7 @@ def save_client_profile(tool_context: ToolContext, client_profile: ClientProfile
     tool_context.state["critique"] = "None"
 
     # Save to json file
-    if client_profile.name:
+    if profile_name:
         profiles = _load_profiles()
         
         # Convert ClientProfile to dict for storage
@@ -89,12 +94,15 @@ def save_client_profile(tool_context: ToolContext, client_profile: ClientProfile
             new_profile_data = {k: v for k, v in client_profile.__dict__.items() if v is not None}
             
         # Merge with existing profile if it exists
-        if client_profile.name in profiles:
-            existing_profile = profiles[client_profile.name]
+        if profile_name in profiles:
+            existing_profile = profiles[profile_name]
             existing_profile.update(new_profile_data)
-            profiles[client_profile.name] = existing_profile
+            profiles[profile_name] = existing_profile
         else:
-            profiles[client_profile.name] = new_profile_data
+            # Ensure name is present for new profiles
+            if "name" not in new_profile_data:
+                new_profile_data["name"] = profile_name
+            profiles[profile_name] = new_profile_data
             
         _save_profiles(profiles)
 

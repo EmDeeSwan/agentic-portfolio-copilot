@@ -1,5 +1,1112 @@
 {
   "test/user": {
     "test_sess": []
+  },
+  "src/user": {
+    "test_hang_session": [
+      {
+        "model_version": null,
+        "content": {
+          "parts": [
+            {
+              "media_resolution": null,
+              "code_execution_result": null,
+              "executable_code": null,
+              "file_data": null,
+              "function_call": null,
+              "function_response": null,
+              "inline_data": null,
+              "text": "Hi",
+              "thought": null,
+              "thought_signature": null,
+              "video_metadata": null
+            }
+          ],
+          "role": "user"
+        },
+        "grounding_metadata": null,
+        "partial": null,
+        "turn_complete": null,
+        "finish_reason": null,
+        "error_code": null,
+        "error_message": null,
+        "interrupted": null,
+        "custom_metadata": null,
+        "usage_metadata": null,
+        "live_session_resumption_update": null,
+        "input_transcription": null,
+        "output_transcription": null,
+        "avg_logprobs": null,
+        "logprobs_result": null,
+        "cache_metadata": null,
+        "citation_metadata": null,
+        "invocation_id": "e-333c6099-28ab-4135-b667-38eea368fcfe",
+        "author": "user",
+        "actions": {
+          "skip_summarization": null,
+          "state_delta": {},
+          "artifact_delta": {},
+          "transfer_to_agent": null,
+          "escalate": null,
+          "requested_auth_configs": {},
+          "requested_tool_confirmations": {},
+          "compaction": null,
+          "end_of_agent": null,
+          "agent_state": null,
+          "rewind_before_invocation_id": null
+        },
+        "long_running_tool_ids": null,
+        "branch": null,
+        "id": "32cfd17e-b2b2-4f70-accd-25dcaa35d71c",
+        "timestamp": 1764621607.021572
+      },
+      {
+        "model_version": "gemini-2.5-flash",
+        "content": {
+          "parts": [
+            {
+              "media_resolution": null,
+              "code_execution_result": null,
+              "executable_code": null,
+              "file_data": null,
+              "function_call": null,
+              "function_response": null,
+              "inline_data": null,
+              "text": "Hello! I am an AI agent here to help you allocate your portfolio assets. I am not a financial advisor and cannot provide personalized financial advice. Investing always comes with risk, and past performance is not a guarantee of future results.\n\nMay I have your name, please?",
+              "thought": null,
+              "thought_signature": null,
+              "video_metadata": null
+            }
+          ],
+          "role": "model"
+        },
+        "grounding_metadata": null,
+        "partial": null,
+        "turn_complete": null,
+        "finish_reason": "STOP",
+        "error_code": null,
+        "error_message": null,
+        "interrupted": null,
+        "custom_metadata": null,
+        "usage_metadata": {
+          "cache_tokens_details": [
+            {
+              "modality": "TEXT",
+              "token_count": 1683
+            }
+          ],
+          "cached_content_token_count": 1683,
+          "candidates_token_count": 55,
+          "candidates_tokens_details": null,
+          "prompt_token_count": 1932,
+          "prompt_tokens_details": [
+            {
+              "modality": "TEXT",
+              "token_count": 1932
+            }
+          ],
+          "thoughts_token_count": null,
+          "tool_use_prompt_token_count": null,
+          "tool_use_prompt_tokens_details": null,
+          "total_token_count": 1987,
+          "traffic_type": null
+        },
+        "live_session_resumption_update": null,
+        "input_transcription": null,
+        "output_transcription": null,
+        "avg_logprobs": null,
+        "logprobs_result": null,
+        "cache_metadata": null,
+        "citation_metadata": null,
+        "invocation_id": "e-333c6099-28ab-4135-b667-38eea368fcfe",
+        "author": "ClientAdvisor",
+        "actions": {
+          "skip_summarization": null,
+          "state_delta": {},
+          "artifact_delta": {},
+          "transfer_to_agent": null,
+          "escalate": null,
+          "requested_auth_configs": {},
+          "requested_tool_confirmations": {},
+          "compaction": null,
+          "end_of_agent": null,
+          "agent_state": null,
+          "rewind_before_invocation_id": null
+        },
+        "long_running_tool_ids": null,
+        "branch": null,
+        "id": "77e7f9fa-5ab6-45b7-baa3-cdf8f252c627",
+        "timestamp": 1764621607.03136
+      },
+      {
+        "model_version": null,
+        "content": {
+          "parts": [
+            {
+              "media_resolution": null,
+              "code_execution_result": null,
+              "executable_code": null,
+              "file_data": null,
+              "function_call": null,
+              "function_response": null,
+              "inline_data": null,
+              "text": "My name is TestUser",
+              "thought": null,
+              "thought_signature": null,
+              "video_metadata": null
+            }
+          ],
+          "role": "user"
+        },
+        "grounding_metadata": null,
+        "partial": null,
+        "turn_complete": null,
+        "finish_reason": null,
+        "error_code": null,
+        "error_message": null,
+        "interrupted": null,
+        "custom_metadata": null,
+        "usage_metadata": null,
+        "live_session_resumption_update": null,
+        "input_transcription": null,
+        "output_transcription": null,
+        "avg_logprobs": null,
+        "logprobs_result": null,
+        "cache_metadata": null,
+        "citation_metadata": null,
+        "invocation_id": "e-6ece2297-4dc9-4371-b690-516de423e674",
+        "author": "user",
+        "actions": {
+          "skip_summarization": null,
+          "state_delta": {},
+          "artifact_delta": {},
+          "transfer_to_agent": null,
+          "escalate": null,
+          "requested_auth_configs": {},
+          "requested_tool_confirmations": {},
+          "compaction": null,
+          "end_of_agent": null,
+          "agent_state": null,
+          "rewind_before_invocation_id": null
+        },
+        "long_running_tool_ids": null,
+        "branch": null,
+        "id": "f16ff0b8-9e4b-4b08-a694-740bcfcd91e2",
+        "timestamp": 1764621610.792017
+      },
+      {
+        "model_version": "gemini-2.5-flash",
+        "content": {
+          "parts": [
+            {
+              "media_resolution": null,
+              "code_execution_result": null,
+              "executable_code": null,
+              "file_data": null,
+              "function_call": {
+                "id": "adk-140119fa-a742-45f8-92e8-1051260ff948",
+                "args": {
+                  "name": "TestUser"
+                },
+                "name": "get_client_profile",
+                "partial_args": null,
+                "will_continue": null
+              },
+              "function_response": null,
+              "inline_data": null,
+              "text": null,
+              "thought": null,
+              "thought_signature": "CtUBAXLI2nwZYAISW21dMDJ3g-WlR2Rp6fhNzxVDZWn_oPFB3DQ0388zEW1C_LN0jF8hk54BwKVQjXNPSbdGoBzr8q5dxU2XOUwjVVW1g67ouNuAfXEQho8T8O1mwdlYnA_7oPMq6iB80wH4iu0WGr1cgVpqix8CCQ3H4Wkvf-8pSSzDe9TWTXpLpRs_RTt0feHe-ahCj8pDf5UTyr5LVT_HBeY1jNYiX8OdD3lle7cBcQPuobK8kPoddANrm9ZjsuEpIlgTg5WIge8YttXb0fASqD4HlJcm",
+              "video_metadata": null
+            }
+          ],
+          "role": "model"
+        },
+        "grounding_metadata": null,
+        "partial": null,
+        "turn_complete": null,
+        "finish_reason": "STOP",
+        "error_code": null,
+        "error_message": null,
+        "interrupted": null,
+        "custom_metadata": null,
+        "usage_metadata": {
+          "cache_tokens_details": null,
+          "cached_content_token_count": null,
+          "candidates_token_count": 18,
+          "candidates_tokens_details": null,
+          "prompt_token_count": 2128,
+          "prompt_tokens_details": [
+            {
+              "modality": "TEXT",
+              "token_count": 2128
+            }
+          ],
+          "thoughts_token_count": 43,
+          "tool_use_prompt_token_count": null,
+          "tool_use_prompt_tokens_details": null,
+          "total_token_count": 2189,
+          "traffic_type": null
+        },
+        "live_session_resumption_update": null,
+        "input_transcription": null,
+        "output_transcription": null,
+        "avg_logprobs": null,
+        "logprobs_result": null,
+        "cache_metadata": null,
+        "citation_metadata": null,
+        "invocation_id": "e-6ece2297-4dc9-4371-b690-516de423e674",
+        "author": "ClientAdvisor",
+        "actions": {
+          "skip_summarization": null,
+          "state_delta": {},
+          "artifact_delta": {},
+          "transfer_to_agent": null,
+          "escalate": null,
+          "requested_auth_configs": {},
+          "requested_tool_confirmations": {},
+          "compaction": null,
+          "end_of_agent": null,
+          "agent_state": null,
+          "rewind_before_invocation_id": null
+        },
+        "long_running_tool_ids": [],
+        "branch": null,
+        "id": "1b306fc1-9fab-40ef-b5a7-3bca12fe53a9",
+        "timestamp": 1764621610.794094
+      },
+      {
+        "model_version": null,
+        "content": {
+          "parts": [
+            {
+              "media_resolution": null,
+              "code_execution_result": null,
+              "executable_code": null,
+              "file_data": null,
+              "function_call": null,
+              "function_response": {
+                "will_continue": null,
+                "scheduling": null,
+                "parts": null,
+                "id": "adk-140119fa-a742-45f8-92e8-1051260ff948",
+                "name": "get_client_profile",
+                "response": {
+                  "name": "TestUser",
+                  "risk_tolerance": "High",
+                  "time_horizon": "10y",
+                  "investment_goals": "Growth",
+                  "current_holdings": {
+                    "cash": 100
+                  }
+                }
+              },
+              "inline_data": null,
+              "text": null,
+              "thought": null,
+              "thought_signature": null,
+              "video_metadata": null
+            }
+          ],
+          "role": "user"
+        },
+        "grounding_metadata": null,
+        "partial": null,
+        "turn_complete": null,
+        "finish_reason": null,
+        "error_code": null,
+        "error_message": null,
+        "interrupted": null,
+        "custom_metadata": null,
+        "usage_metadata": null,
+        "live_session_resumption_update": null,
+        "input_transcription": null,
+        "output_transcription": null,
+        "avg_logprobs": null,
+        "logprobs_result": null,
+        "cache_metadata": null,
+        "citation_metadata": null,
+        "invocation_id": "e-6ece2297-4dc9-4371-b690-516de423e674",
+        "author": "ClientAdvisor",
+        "actions": {
+          "skip_summarization": null,
+          "state_delta": {
+            "user_name": "TestUser",
+            "user_risk_tolerance": "High",
+            "user_time_horizon": "10y",
+            "user_investment_goals": "Growth",
+            "user_current_holdings": {
+              "cash": 100
+            }
+          },
+          "artifact_delta": {},
+          "transfer_to_agent": null,
+          "escalate": null,
+          "requested_auth_configs": {},
+          "requested_tool_confirmations": {},
+          "compaction": null,
+          "end_of_agent": null,
+          "agent_state": null,
+          "rewind_before_invocation_id": null
+        },
+        "long_running_tool_ids": null,
+        "branch": null,
+        "id": "142b023f-2f54-4346-a654-c13dce4cc392",
+        "timestamp": 1764621614.437691
+      },
+      {
+        "model_version": "gemini-2.5-flash",
+        "content": {
+          "parts": [
+            {
+              "media_resolution": null,
+              "code_execution_result": null,
+              "executable_code": null,
+              "file_data": null,
+              "function_call": null,
+              "function_response": null,
+              "inline_data": null,
+              "text": "Welcome back, TestUser!\n\nI see your current profile indicates a high risk tolerance, a 10-year time horizon, and an investment goal of growth, with current holdings of $100 cash.\n\nWould you like to (A) Build a New Portfolio or (B) Analyze an Existing Portfolio?",
+              "thought": null,
+              "thought_signature": "CvICAXLI2nzzjabxm_YvsPFJA9C5U1dnO4jQyEsMSpmEua5suw6Me1Bgis9Th9TywJQNlzp5RSjOw30IhtBI2I26FTzn_WF2QLwP0Wp4QQZJC2BxoZ8HtgbFA0k6pL8cL9hpC3A2A_zqhV6tctaYhzE4y3OUqwCyDXsHPEcv1kytHZyC7qFtrf6icmujMNHKUQsJ5ChWI41HrF6DXnrX7r2TlJmbkRfixNz9NDBDvCSiReH7pY58zTNDTt9jUm1kQdKBmbSB3faqyYus4ZJXfyDzhkX9L1nvVbJnUGW_o0YfiJdu-cQaZk1kDITaijWe2GJ5cruiJMFP-FQ910PuqjXUq2YZHGrzhDYyf4Vz6IN2x24gI5e9IDspLnfZ51S59PZdaQfjOx4eFdFO9QEdIdPJjH67WS4vxtHrd24TSimdkNJTJAEHfh0db7TDLl5zCiwXPoFqo9sjhE7B0JhOILY83DCe_faH4JVQa7RXlSEexNXhKQ==",
+              "video_metadata": null
+            }
+          ],
+          "role": "model"
+        },
+        "grounding_metadata": null,
+        "partial": null,
+        "turn_complete": null,
+        "finish_reason": "STOP",
+        "error_code": null,
+        "error_message": null,
+        "interrupted": null,
+        "custom_metadata": null,
+        "usage_metadata": {
+          "cache_tokens_details": [
+            {
+              "modality": "TEXT",
+              "token_count": 1679
+            }
+          ],
+          "cached_content_token_count": 1679,
+          "candidates_token_count": 65,
+          "candidates_tokens_details": null,
+          "prompt_token_count": 2204,
+          "prompt_tokens_details": [
+            {
+              "modality": "TEXT",
+              "token_count": 2204
+            }
+          ],
+          "thoughts_token_count": 84,
+          "tool_use_prompt_token_count": null,
+          "tool_use_prompt_tokens_details": null,
+          "total_token_count": 2353,
+          "traffic_type": null
+        },
+        "live_session_resumption_update": null,
+        "input_transcription": null,
+        "output_transcription": null,
+        "avg_logprobs": null,
+        "logprobs_result": null,
+        "cache_metadata": null,
+        "citation_metadata": null,
+        "invocation_id": "e-6ece2297-4dc9-4371-b690-516de423e674",
+        "author": "ClientAdvisor",
+        "actions": {
+          "skip_summarization": null,
+          "state_delta": {},
+          "artifact_delta": {},
+          "transfer_to_agent": null,
+          "escalate": null,
+          "requested_auth_configs": {},
+          "requested_tool_confirmations": {},
+          "compaction": null,
+          "end_of_agent": null,
+          "agent_state": null,
+          "rewind_before_invocation_id": null
+        },
+        "long_running_tool_ids": null,
+        "branch": null,
+        "id": "f3b5f39d-2fa2-4262-bb32-9d39fc82c713",
+        "timestamp": 1764621614.439769
+      },
+      {
+        "model_version": null,
+        "content": {
+          "parts": [
+            {
+              "media_resolution": null,
+              "code_execution_result": null,
+              "executable_code": null,
+              "file_data": null,
+              "function_call": null,
+              "function_response": null,
+              "inline_data": null,
+              "text": "Hello?",
+              "thought": null,
+              "thought_signature": null,
+              "video_metadata": null
+            }
+          ],
+          "role": "user"
+        },
+        "grounding_metadata": null,
+        "partial": null,
+        "turn_complete": null,
+        "finish_reason": null,
+        "error_code": null,
+        "error_message": null,
+        "interrupted": null,
+        "custom_metadata": null,
+        "usage_metadata": null,
+        "live_session_resumption_update": null,
+        "input_transcription": null,
+        "output_transcription": null,
+        "avg_logprobs": null,
+        "logprobs_result": null,
+        "cache_metadata": null,
+        "citation_metadata": null,
+        "invocation_id": "e-d9d2aac0-c7ab-4d18-aa66-1ad1f031c6b9",
+        "author": "user",
+        "actions": {
+          "skip_summarization": null,
+          "state_delta": {},
+          "artifact_delta": {},
+          "transfer_to_agent": null,
+          "escalate": null,
+          "requested_auth_configs": {},
+          "requested_tool_confirmations": {},
+          "compaction": null,
+          "end_of_agent": null,
+          "agent_state": null,
+          "rewind_before_invocation_id": null
+        },
+        "long_running_tool_ids": null,
+        "branch": null,
+        "id": "17bf7f31-1c98-46f7-87b9-beabf1c267af",
+        "timestamp": 1764621618.448312
+      },
+      {
+        "model_version": "gemini-2.5-flash",
+        "content": {
+          "parts": [
+            {
+              "media_resolution": null,
+              "code_execution_result": null,
+              "executable_code": null,
+              "file_data": null,
+              "function_call": null,
+              "function_response": null,
+              "inline_data": null,
+              "text": "Would you like to (A) Build a New Portfolio or (B) Analyze an Existing Portfolio?",
+              "thought": null,
+              "thought_signature": null,
+              "video_metadata": null
+            }
+          ],
+          "role": "model"
+        },
+        "grounding_metadata": null,
+        "partial": null,
+        "turn_complete": null,
+        "finish_reason": "STOP",
+        "error_code": null,
+        "error_message": null,
+        "interrupted": null,
+        "custom_metadata": null,
+        "usage_metadata": {
+          "cache_tokens_details": null,
+          "cached_content_token_count": null,
+          "candidates_token_count": 20,
+          "candidates_tokens_details": null,
+          "prompt_token_count": 2273,
+          "prompt_tokens_details": [
+            {
+              "modality": "TEXT",
+              "token_count": 2273
+            }
+          ],
+          "thoughts_token_count": null,
+          "tool_use_prompt_token_count": null,
+          "tool_use_prompt_tokens_details": null,
+          "total_token_count": 2293,
+          "traffic_type": null
+        },
+        "live_session_resumption_update": null,
+        "input_transcription": null,
+        "output_transcription": null,
+        "avg_logprobs": null,
+        "logprobs_result": null,
+        "cache_metadata": null,
+        "citation_metadata": null,
+        "invocation_id": "e-d9d2aac0-c7ab-4d18-aa66-1ad1f031c6b9",
+        "author": "ClientAdvisor",
+        "actions": {
+          "skip_summarization": null,
+          "state_delta": {},
+          "artifact_delta": {},
+          "transfer_to_agent": null,
+          "escalate": null,
+          "requested_auth_configs": {},
+          "requested_tool_confirmations": {},
+          "compaction": null,
+          "end_of_agent": null,
+          "agent_state": null,
+          "rewind_before_invocation_id": null
+        },
+        "long_running_tool_ids": null,
+        "branch": null,
+        "id": "5f218072-d02d-40c7-afdf-8ea3fc2845e5",
+        "timestamp": 1764621618.449816
+      }
+    ],
+    "test_hang_session_new": [
+      {
+        "model_version": null,
+        "content": {
+          "parts": [
+            {
+              "media_resolution": null,
+              "code_execution_result": null,
+              "executable_code": null,
+              "file_data": null,
+              "function_call": null,
+              "function_response": null,
+              "inline_data": null,
+              "text": "Hi",
+              "thought": null,
+              "thought_signature": null,
+              "video_metadata": null
+            }
+          ],
+          "role": "user"
+        },
+        "grounding_metadata": null,
+        "partial": null,
+        "turn_complete": null,
+        "finish_reason": null,
+        "error_code": null,
+        "error_message": null,
+        "interrupted": null,
+        "custom_metadata": null,
+        "usage_metadata": null,
+        "live_session_resumption_update": null,
+        "input_transcription": null,
+        "output_transcription": null,
+        "avg_logprobs": null,
+        "logprobs_result": null,
+        "cache_metadata": null,
+        "citation_metadata": null,
+        "invocation_id": "e-67a1a6c3-3285-4443-a795-1bc3555660d5",
+        "author": "user",
+        "actions": {
+          "skip_summarization": null,
+          "state_delta": {},
+          "artifact_delta": {},
+          "transfer_to_agent": null,
+          "escalate": null,
+          "requested_auth_configs": {},
+          "requested_tool_confirmations": {},
+          "compaction": null,
+          "end_of_agent": null,
+          "agent_state": null,
+          "rewind_before_invocation_id": null
+        },
+        "long_running_tool_ids": null,
+        "branch": null,
+        "id": "9ba1e671-8092-4053-b441-4fba16caa848",
+        "timestamp": 1764621935.167701
+      },
+      {
+        "model_version": "gemini-2.5-flash",
+        "content": {
+          "parts": [
+            {
+              "media_resolution": null,
+              "code_execution_result": null,
+              "executable_code": null,
+              "file_data": null,
+              "function_call": null,
+              "function_response": null,
+              "inline_data": null,
+              "text": "Hello! I am an AI agent here to help you with allocating your portfolio assets. However, I am not a financial advisor and cannot provide personalized financial advice. Investing always comes with risk, and past performance is not a guarantee of future results.\n\nMay I have your name, please?",
+              "thought": null,
+              "thought_signature": null,
+              "video_metadata": null
+            }
+          ],
+          "role": "model"
+        },
+        "grounding_metadata": null,
+        "partial": null,
+        "turn_complete": null,
+        "finish_reason": "STOP",
+        "error_code": null,
+        "error_message": null,
+        "interrupted": null,
+        "custom_metadata": null,
+        "usage_metadata": {
+          "cache_tokens_details": [
+            {
+              "modality": "TEXT",
+              "token_count": 1683
+            }
+          ],
+          "cached_content_token_count": 1683,
+          "candidates_token_count": 58,
+          "candidates_tokens_details": null,
+          "prompt_token_count": 1932,
+          "prompt_tokens_details": [
+            {
+              "modality": "TEXT",
+              "token_count": 1932
+            }
+          ],
+          "thoughts_token_count": null,
+          "tool_use_prompt_token_count": null,
+          "tool_use_prompt_tokens_details": null,
+          "total_token_count": 1990,
+          "traffic_type": null
+        },
+        "live_session_resumption_update": null,
+        "input_transcription": null,
+        "output_transcription": null,
+        "avg_logprobs": null,
+        "logprobs_result": null,
+        "cache_metadata": null,
+        "citation_metadata": null,
+        "invocation_id": "e-67a1a6c3-3285-4443-a795-1bc3555660d5",
+        "author": "ClientAdvisor",
+        "actions": {
+          "skip_summarization": null,
+          "state_delta": {},
+          "artifact_delta": {},
+          "transfer_to_agent": null,
+          "escalate": null,
+          "requested_auth_configs": {},
+          "requested_tool_confirmations": {},
+          "compaction": null,
+          "end_of_agent": null,
+          "agent_state": null,
+          "rewind_before_invocation_id": null
+        },
+        "long_running_tool_ids": null,
+        "branch": null,
+        "id": "cff6d100-27aa-432c-b169-6b8b15da4452",
+        "timestamp": 1764621935.176275
+      },
+      {
+        "model_version": null,
+        "content": {
+          "parts": [
+            {
+              "media_resolution": null,
+              "code_execution_result": null,
+              "executable_code": null,
+              "file_data": null,
+              "function_call": null,
+              "function_response": null,
+              "inline_data": null,
+              "text": "My name is TestUser_dcc9c311",
+              "thought": null,
+              "thought_signature": null,
+              "video_metadata": null
+            }
+          ],
+          "role": "user"
+        },
+        "grounding_metadata": null,
+        "partial": null,
+        "turn_complete": null,
+        "finish_reason": null,
+        "error_code": null,
+        "error_message": null,
+        "interrupted": null,
+        "custom_metadata": null,
+        "usage_metadata": null,
+        "live_session_resumption_update": null,
+        "input_transcription": null,
+        "output_transcription": null,
+        "avg_logprobs": null,
+        "logprobs_result": null,
+        "cache_metadata": null,
+        "citation_metadata": null,
+        "invocation_id": "e-bc984358-7ade-468a-b46d-14e457de8836",
+        "author": "user",
+        "actions": {
+          "skip_summarization": null,
+          "state_delta": {},
+          "artifact_delta": {},
+          "transfer_to_agent": null,
+          "escalate": null,
+          "requested_auth_configs": {},
+          "requested_tool_confirmations": {},
+          "compaction": null,
+          "end_of_agent": null,
+          "agent_state": null,
+          "rewind_before_invocation_id": null
+        },
+        "long_running_tool_ids": null,
+        "branch": null,
+        "id": "2a8a31f3-6a54-42c9-af68-7ceec1c39ce2",
+        "timestamp": 1764621940.195687
+      },
+      {
+        "model_version": "gemini-2.5-flash",
+        "content": {
+          "parts": [
+            {
+              "media_resolution": null,
+              "code_execution_result": null,
+              "executable_code": null,
+              "file_data": null,
+              "function_call": {
+                "id": "adk-fa700cfe-6d6f-4f5d-b61e-a78d510a2abe",
+                "args": {
+                  "name": "TestUser_dcc9c311"
+                },
+                "name": "get_client_profile",
+                "partial_args": null,
+                "will_continue": null
+              },
+              "function_response": null,
+              "inline_data": null,
+              "text": null,
+              "thought": null,
+              "thought_signature": "CqkBAXLI2nwecgWiMVycWewqWmmXGxoRZnqsRsi9KntHHY2TC4E77w6U-AWSIFqag5zQD7TGdJmP-wIb7O2ccIvoHoj_KP8IrLxsOlbJ5E-XZfnIPQu6oUUc8n_Cq6Gbr4vxTzWMCy-WEU7P7r8IzvX1tAUf3O5Rdi80rDmqButvYigH7bNyKK2HF_tAIdxFkqokW4OQ2jhvrUpKO9qHk8qBo3p83LaB0WPs5w==",
+              "video_metadata": null
+            }
+          ],
+          "role": "model"
+        },
+        "grounding_metadata": null,
+        "partial": null,
+        "turn_complete": null,
+        "finish_reason": "STOP",
+        "error_code": null,
+        "error_message": null,
+        "interrupted": null,
+        "custom_metadata": null,
+        "usage_metadata": {
+          "cache_tokens_details": null,
+          "cached_content_token_count": null,
+          "candidates_token_count": 26,
+          "candidates_tokens_details": null,
+          "prompt_token_count": 2005,
+          "prompt_tokens_details": [
+            {
+              "modality": "TEXT",
+              "token_count": 2005
+            }
+          ],
+          "thoughts_token_count": 32,
+          "tool_use_prompt_token_count": null,
+          "tool_use_prompt_tokens_details": null,
+          "total_token_count": 2063,
+          "traffic_type": null
+        },
+        "live_session_resumption_update": null,
+        "input_transcription": null,
+        "output_transcription": null,
+        "avg_logprobs": null,
+        "logprobs_result": null,
+        "cache_metadata": null,
+        "citation_metadata": null,
+        "invocation_id": "e-bc984358-7ade-468a-b46d-14e457de8836",
+        "author": "ClientAdvisor",
+        "actions": {
+          "skip_summarization": null,
+          "state_delta": {},
+          "artifact_delta": {},
+          "transfer_to_agent": null,
+          "escalate": null,
+          "requested_auth_configs": {},
+          "requested_tool_confirmations": {},
+          "compaction": null,
+          "end_of_agent": null,
+          "agent_state": null,
+          "rewind_before_invocation_id": null
+        },
+        "long_running_tool_ids": [],
+        "branch": null,
+        "id": "95fba989-c4ab-48c3-a864-dbed6ee25f7c",
+        "timestamp": 1764621940.197696
+      },
+      {
+        "model_version": null,
+        "content": {
+          "parts": [
+            {
+              "media_resolution": null,
+              "code_execution_result": null,
+              "executable_code": null,
+              "file_data": null,
+              "function_call": null,
+              "function_response": {
+                "will_continue": null,
+                "scheduling": null,
+                "parts": null,
+                "id": "adk-fa700cfe-6d6f-4f5d-b61e-a78d510a2abe",
+                "name": "get_client_profile",
+                "response": {
+                  "status": "not_found",
+                  "message": "Client profile for 'TestUser_dcc9c311' not found."
+                }
+              },
+              "inline_data": null,
+              "text": null,
+              "thought": null,
+              "thought_signature": null,
+              "video_metadata": null
+            }
+          ],
+          "role": "user"
+        },
+        "grounding_metadata": null,
+        "partial": null,
+        "turn_complete": null,
+        "finish_reason": null,
+        "error_code": null,
+        "error_message": null,
+        "interrupted": null,
+        "custom_metadata": null,
+        "usage_metadata": null,
+        "live_session_resumption_update": null,
+        "input_transcription": null,
+        "output_transcription": null,
+        "avg_logprobs": null,
+        "logprobs_result": null,
+        "cache_metadata": null,
+        "citation_metadata": null,
+        "invocation_id": "e-bc984358-7ade-468a-b46d-14e457de8836",
+        "author": "ClientAdvisor",
+        "actions": {
+          "skip_summarization": null,
+          "state_delta": {},
+          "artifact_delta": {},
+          "transfer_to_agent": null,
+          "escalate": null,
+          "requested_auth_configs": {},
+          "requested_tool_confirmations": {},
+          "compaction": null,
+          "end_of_agent": null,
+          "agent_state": null,
+          "rewind_before_invocation_id": null
+        },
+        "long_running_tool_ids": null,
+        "branch": null,
+        "id": "69176d54-b315-44f6-a3e1-6cfb29b8306f",
+        "timestamp": 1764621943.438498
+      },
+      {
+        "model_version": "gemini-2.5-flash",
+        "content": {
+          "parts": [
+            {
+              "media_resolution": null,
+              "code_execution_result": null,
+              "executable_code": null,
+              "file_data": null,
+              "function_call": null,
+              "function_response": null,
+              "inline_data": null,
+              "text": "Welcome, TestUser_dcc9c311! I'm glad to have you here.\n\nTo help you get started, I need a bit more information. Could you please tell me about your:\n\n1.  **Risk Tolerance:** How comfortable are you with investment risk? (e.g., conservative, moderate, aggressive)\n2.  **Time Horizon:** When do you plan to achieve your investment goals? (e.g., short-term (1-3 years), medium-term (3-10 years), long-term (10+ years))\n3.  **Investment Goals:** What are you hoping to achieve with your investments? (e.g., retirement, buying a house, saving for education)",
+              "thought": null,
+              "thought_signature": "Cs0BAXLI2nxYAYijcuAUugZBo-ByZdU6KlECGxiqdP8fhsefhyrfnln6erj3_0i6l4An3gZnV5OUVyjzMJ1HPnEN0oVTqvBc3qzojOYAIpBokoVqK1073yfVrv_dKqa9mEbK7jnP-s3usVPsLCPKKYYsSia0DoeGLXwXITN62BicsTfzRYO6EfpWYOtk1kttgoUNk62jcTwoaVLD-RWg-RxW0dj_-dwPDerWAMNrVUupw--0S093RP8tqJk_vaePE9kWFA0wfAEwSjlLs4dMFA==",
+              "video_metadata": null
+            }
+          ],
+          "role": "model"
+        },
+        "grounding_metadata": null,
+        "partial": null,
+        "turn_complete": null,
+        "finish_reason": "STOP",
+        "error_code": null,
+        "error_message": null,
+        "interrupted": null,
+        "custom_metadata": null,
+        "usage_metadata": {
+          "cache_tokens_details": [
+            {
+              "modality": "TEXT",
+              "token_count": 1668
+            }
+          ],
+          "cached_content_token_count": 1668,
+          "candidates_token_count": 155,
+          "candidates_tokens_details": null,
+          "prompt_token_count": 2072,
+          "prompt_tokens_details": [
+            {
+              "modality": "TEXT",
+              "token_count": 2072
+            }
+          ],
+          "thoughts_token_count": 39,
+          "tool_use_prompt_token_count": null,
+          "tool_use_prompt_tokens_details": null,
+          "total_token_count": 2266,
+          "traffic_type": null
+        },
+        "live_session_resumption_update": null,
+        "input_transcription": null,
+        "output_transcription": null,
+        "avg_logprobs": null,
+        "logprobs_result": null,
+        "cache_metadata": null,
+        "citation_metadata": null,
+        "invocation_id": "e-bc984358-7ade-468a-b46d-14e457de8836",
+        "author": "ClientAdvisor",
+        "actions": {
+          "skip_summarization": null,
+          "state_delta": {},
+          "artifact_delta": {},
+          "transfer_to_agent": null,
+          "escalate": null,
+          "requested_auth_configs": {},
+          "requested_tool_confirmations": {},
+          "compaction": null,
+          "end_of_agent": null,
+          "agent_state": null,
+          "rewind_before_invocation_id": null
+        },
+        "long_running_tool_ids": null,
+        "branch": null,
+        "id": "713cfd45-4cdd-456e-9a99-fa7464de7d9e",
+        "timestamp": 1764621943.441012
+      },
+      {
+        "model_version": null,
+        "content": {
+          "parts": [
+            {
+              "media_resolution": null,
+              "code_execution_result": null,
+              "executable_code": null,
+              "file_data": null,
+              "function_call": null,
+              "function_response": null,
+              "inline_data": null,
+              "text": "Hello?",
+              "thought": null,
+              "thought_signature": null,
+              "video_metadata": null
+            }
+          ],
+          "role": "user"
+        },
+        "grounding_metadata": null,
+        "partial": null,
+        "turn_complete": null,
+        "finish_reason": null,
+        "error_code": null,
+        "error_message": null,
+        "interrupted": null,
+        "custom_metadata": null,
+        "usage_metadata": null,
+        "live_session_resumption_update": null,
+        "input_transcription": null,
+        "output_transcription": null,
+        "avg_logprobs": null,
+        "logprobs_result": null,
+        "cache_metadata": null,
+        "citation_metadata": null,
+        "invocation_id": "e-2f098228-3337-4977-b10c-01f4f81e1978",
+        "author": "user",
+        "actions": {
+          "skip_summarization": null,
+          "state_delta": {},
+          "artifact_delta": {},
+          "transfer_to_agent": null,
+          "escalate": null,
+          "requested_auth_configs": {},
+          "requested_tool_confirmations": {},
+          "compaction": null,
+          "end_of_agent": null,
+          "agent_state": null,
+          "rewind_before_invocation_id": null
+        },
+        "long_running_tool_ids": null,
+        "branch": null,
+        "id": "e6f74f9e-447b-431d-b558-35b6e946c9a3",
+        "timestamp": 1764621947.624092
+      },
+      {
+        "model_version": "gemini-2.5-flash",
+        "content": {
+          "parts": [
+            {
+              "media_resolution": null,
+              "code_execution_result": null,
+              "executable_code": null,
+              "file_data": null,
+              "function_call": null,
+              "function_response": null,
+              "inline_data": null,
+              "text": "I'm still here! I'm waiting for you to provide your risk tolerance, time horizon, and investment goals so I can create your profile and help you further.",
+              "thought": null,
+              "thought_signature": "CuEBAXLI2nwzCeF6BoFILbHvatctP_WY7__-JfcUijAFXo1FshCONmCS8Tz822ud4Vdzzu6r93_tbpPMpyz8wMimANrGYocB1tq9M5RASZr2xnrsVvpIbi8jCHCyctf-XMn5QFyYysvkhOFpVKAEC4jfa3kv29GFCsHjU5SEFQa7ZNdfpmM1wFCqgEKq0TBMbLFM_zJ3Vid6frYqPIEgQgqu5wY6h8_sBD6Xiq5TCF-YKunOVfBX0QEBh8yZabomMH79AooZNqYwttf03iUYxCCh2ypO1y3jynTtEWxHXoW7buqc",
+              "video_metadata": null
+            }
+          ],
+          "role": "model"
+        },
+        "grounding_metadata": null,
+        "partial": null,
+        "turn_complete": null,
+        "finish_reason": "STOP",
+        "error_code": null,
+        "error_message": null,
+        "interrupted": null,
+        "custom_metadata": null,
+        "usage_metadata": {
+          "cache_tokens_details": null,
+          "cached_content_token_count": null,
+          "candidates_token_count": 35,
+          "candidates_tokens_details": null,
+          "prompt_token_count": 2231,
+          "prompt_tokens_details": [
+            {
+              "modality": "TEXT",
+              "token_count": 2231
+            }
+          ],
+          "thoughts_token_count": 40,
+          "tool_use_prompt_token_count": null,
+          "tool_use_prompt_tokens_details": null,
+          "total_token_count": 2306,
+          "traffic_type": null
+        },
+        "live_session_resumption_update": null,
+        "input_transcription": null,
+        "output_transcription": null,
+        "avg_logprobs": null,
+        "logprobs_result": null,
+        "cache_metadata": null,
+        "citation_metadata": null,
+        "invocation_id": "e-2f098228-3337-4977-b10c-01f4f81e1978",
+        "author": "ClientAdvisor",
+        "actions": {
+          "skip_summarization": null,
+          "state_delta": {},
+          "artifact_delta": {},
+          "transfer_to_agent": null,
+          "escalate": null,
+          "requested_auth_configs": {},
+          "requested_tool_confirmations": {},
+          "compaction": null,
+          "end_of_agent": null,
+          "agent_state": null,
+          "rewind_before_invocation_id": null
+        },
+        "long_running_tool_ids": null,
+        "branch": null,
+        "id": "5d5204a7-229e-4088-9d77-0a55fc26fe9a",
+        "timestamp": 1764621947.62615
+      }
+    ]
   }
 }

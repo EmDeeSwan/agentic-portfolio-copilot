@@ -66,8 +66,10 @@ def get_model_config(thinking_level: str = "low"):
     """
     Returns (model_name, thinking_config) based on availability and requested level.
     """
+    force_fallback = os.getenv("FORCE_FALLBACK", "false").lower() == "true"
+
     # Check primary availability
-    if is_model_available(PRIMARY_MODEL):
+    if not force_fallback and is_model_available(PRIMARY_MODEL):
         if thinking_level == "high":
             return PRIMARY_MODEL, high_thinking_config
         elif thinking_level == "low":
@@ -75,6 +77,9 @@ def get_model_config(thinking_level: str = "low"):
         else: # tool_safe or others
             return PRIMARY_MODEL, tool_safe_config
     else:
+        if force_fallback:
+            print(f"Fallback forced. Skipping {PRIMARY_MODEL} check.")
+        
         # Fallback logic
         if thinking_level == "high":
             return FALLBACK_HIGH, tool_safe_config
